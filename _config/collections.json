@@ -1,0 +1,28 @@
+{
+  "-558245ca": {
+    "collection": "features",
+    "query": {
+      "sort": [
+        "created-on"
+      ]
+    }
+  },
+  "-23cd42cf": {
+    "collection": "companies",
+    "query": {
+      "sort": [
+        "name"
+      ]
+    }
+  },
+  "-32a0b87e": {
+    "collection": "case_studies",
+    "query": {
+      "offset": 0,
+      "limit": 1
+    }
+  },
+  "-d5b852d": {
+    "collection": "case_studies"
+  }
+}

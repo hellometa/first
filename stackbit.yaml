@@ -1,0 +1,27 @@
+stackbitVersion: "~0.3.0"
+ssgName: "custom"
+buildCommand: "npx @11ty/eleventy"
+publishDir: "public"
+staticDir: "static"
+uploadDir: "images"
+pagesDir: "site"
+metadata:
+  title: "meta5template"
+  description: "Theme created in Webflow and converted with Udesly"
+models:
+  companies:
+    type: "page"
+    label: "Companies"
+    urlPath: "/companies/{slug}"
+  case_studies:
+    type: "page"
+    label: "Case Studies"
+    urlPath: "/case-studies/{slug}"
+  features:
+    type: "page"
+    label: "Features"
+    urlPath: "/features/{slug}"
+  utility:
+    type: "page"
+    label: "Utilities"
+    urlPath: "/utility/{slug}"
